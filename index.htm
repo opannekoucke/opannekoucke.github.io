@@ -126,6 +126,42 @@ $(document).ready(function(){
   <section class="sub-section" id="news" style="display:block">
     <h1>News</h1>
 
+
+    <article  class="hidden-long">
+      <h2>"Parametric covariance dynamics for the nonlinear diffusive Burgers equation" on
+      <a target="_blank" href="https://arxiv.org/pdf/2002.01029.pdf">arxiv</a> </h2>
+
+        <p>This reasearch article bridges physics and desing of neural network.
+
+          Code is available
+          on <a target="_blank" href="https://github.com/opannekoucke/pdenetgen">github</a> </p>
+
+        <b>Summary</b>
+          <p>
+            Bridging physics and deep learning is a topical challenge. While deep learning frameworks open avenues
+            in physical science, the design of physicallyconsistent deep neural network architectures is an open issue.
+            In the spirit of physics-informed NNs, PDE-NetGen package provides new means to automatically translate
+            physical equations, given as PDEs, into neural network architectures. PDE-NetGen combines symbolic calculus
+            and a neural network generator. The later exploits NN-based implementations of PDE solvers using Keras.
+            With some knowledge of a problem, PDE-NetGen is a plug-and-play tool to generate physics-informed NN
+            architectures. They provide computationally-efficient yet compact representations to address a variety of
+            issues, including among others adjoint derivation, model calibration, forecasting, data assimilation as
+            well as uncertainty quantification. As an illustration, the workflow is first presented for the 2D diffusion
+            equation, then applied to the data-driven and physics-informed identification of uncertainty dynamics for the
+            Burgers equation.
+          </p>
+
+          <figure class="keyresult">
+            <img  src="./img/figures/pdenetgen-burgers.png"
+                  alt=""/>
+            <figcaption>
+              <b>Figure:</b>
+              Illustration of the uncertainty propagation for the Burgers dynamics (a) and its trained generated NN (b).
+            </figcaption>
+          </figure>
+    </article>
+
+
     <article>
       <h2>Invited talk at the <a target="_blank" href="https://ai4oac.sciencesconf.org/">AI4OAC</a>
         workshop, Brest, 20-25 January, 2020
@@ -302,6 +338,21 @@ function generateResearchArticles(){
       </p>
 
       <ol class="pub-list" reversed>
+
+        <li>
+          <b>O. Pannekoucke</b> and R. Fablet,
+          <i>PDE-NetGen 1.0: from symbolic PDE representations of physical processes to trainable
+          neural network representations</i>, submitted in GMD, Feb. 2020.
+          <a target="_blank" href="https://arxiv.org/pdf/2002.01029.pdf">arxiv preprint</a>
+          </li>
+
+          <li>
+            <b>O. Pannekoucke</b>,
+            <i>
+              An anisotropic formulation of the parametric Kalman filter analysis step</i>,
+              in revision QJRMS, 2020.
+            </li>
+
 
         <li> <b>O. Pannekoucke</b>; Bocquet, M. & Ménard, R.
           <i>Parametric covariance dynamics for the nonlinear diffusive Burgers equation</i>
@@ -618,7 +669,7 @@ function generateResearchArticles(){
       <h1>Projects</h1>
       <p>Contribution in Scientific projects as principal investigator, work package leader or participant</p>
       <article class="pub-list">
-        <h2> INSU/LEFE/MANU KAPA (KAlman PArametric) (2017 – 2019)  </h2>
+        <h2> INSU/LEFE/MANU KAPA (KAlman PArametric) (2017 – 2020)  </h2>
 
           <img src="./img/logo/logo-lefe.png" width="100px" style="float:left"/>
           <p>The project joins the CNRM (PI), the CERFACS, the CEREA
@@ -634,6 +685,18 @@ function generateResearchArticles(){
             <b>Research articles</b>
             <br>
             <ul>
+              <li>
+                <b>O. Pannekoucke</b> and R. Fablet,
+                “PDE-NetGen 1.0: from symbolic PDE representations of physical processes to trainable
+                neural network representations,” Feb. 2020.
+                <a target="_blank" href="https://arxiv.org/pdf/2002.01029.pdf">link</a>
+                </li>
+              <li>
+                  <b>O. Pannekoucke</b>,
+                  <i>
+                    An anisotropic formulation of the parametric Kalman filter analysis step</i>,
+                    in revision QJRMS, 2020.
+                  </li>
               <li> <b>O. Pannekoucke</b>; Bocquet, M. & Ménard, R.
                 <i>Parametric covariance dynamics for the nonlinear diffusive Burgers equation</i>
                  Nonlinear Processes in Geophysics,  1-21. (2018)
@@ -670,6 +733,18 @@ function generateResearchArticles(){
               <li> O. Pannekoucke, in session 'Inverse Problems, Data Assimilation and Uncertainty Quantification in Geosciences' (NP5.1/AS5.18/HS3.6/OS4.21) of the upcoming General Assembly of the European Geosciences Union, Vienna 7-12 April 2019.
                       <a target="_blank" href="https://meetingorganizer.copernicus.org/EGU2019/orals/30669">website</a></li>
             </ul>
+
+              <b>Codes</b>
+
+              <br>
+              <ul>
+                <li>
+                <a target="_blank" href="https://github.com/opannekoucke/pdenetgen">
+                   GitHub for "PDE-NetGen 1.0: from symbolic PDE representations of physical processes to trainable
+                  neural network representations"
+                </a>
+                </li>
+              </ul>
           </p>
       </article>
 
