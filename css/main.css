@@ -177,6 +177,11 @@ figure.keyresult  figcaption {
     padding: 0px;
   }
 
+  .menuitem a {
+    padding: 0px;
+    font-size: 20px;
+  }
+
   .sub-section {
     width: 100%;
     padding: 10px;
@@ -242,6 +247,7 @@ figure.keyresult  figcaption {
 
   .menuitem a {
     padding: 0px;
+    font-size: 22px;
   }
 
   figure.keyresult img:hover{
