@@ -126,6 +126,35 @@ $(document).ready(function(){
   <section class="sub-section" id="news" style="display:block">
     <h1>News</h1>
 
+
+    <article class="hidden-long">
+      <h2>  The article               
+          "An anisotropic formulation of the parametric Kalman filter assimilation" is now published in Tellus A <a href="https://doi.org/10.1080/16000870.2021.1926660">10.1080/16000870.2021.1926660</a>
+      </h2>        
+
+        <p>This research article detail how to assimilate local observations and how predict the dynamics of the error covariance matrix with the PKF. The work relies on the parametric Kalman filter introduced in two 
+          previous contributions 
+          (<a target="_blank" href="https://doi.org/10.3402/tellusa.v68.31547">Pannekoucke et al. 2016</a>,
+          <a target="_blank" href="https://doi.org/10.5194/npg-25-481-2018">Pannekoucke et al. 2018</a>,
+          )
+        </p>          
+
+        <b>Summary</b>
+        <p>
+          In geophysics, the direct application of covariance matrix dynamics described by the Kalman filter (KF) is limited by the high dimension of such problems. The parametric Kalman filter (PKF) is a recent alternative to the ensemble Kalman filter, where the covariance matrices are approximated by a covariance model featured by a set of parameters. The covariance dynamics is then described by the time evolution of these parameters during the analysis and forecast cycles. This study focuses on covariance model parametrized by the variance and the local anisotropic tensor fields (VLATcov). The analysis step of the PKF for VLATcov in a 2D/3D domain is first introduced. Then, using 2D univariate numerical investigations, the PKF is shown to be able to provide a low numerical cost approximation of the Kalman filter analysis step, even for anisotropic error correlation functions. Moreover the PKF has been shown able to reproduce the KF over several assimilation cycles in a transport dynamics. An extension toward the multivariate situation is theoretically studied in a 1D domain.
+        </p>
+
+        <figure class="keyresult">
+          <img  src="./img/figures/tellus-2021-avatar-web.jpeg"
+                alt=""/>
+          <figcaption>
+            <b>Figure:</b>
+            Time evolution of the analysis-error variance field predicted by the PKF assimilation versus the one diagnosed from the EnKF estimated from a large ensemble (1000 members)              
+          </figcaption>
+        </figure>          
+
+  </article>    
+
     <article>
       <h2><mark>The article "A methodology to obtain model-error covariances due to 
         the discretization scheme from the parametric Kalman filter perspective" has been selected 
@@ -438,8 +467,7 @@ function generateResearchArticles(){
         <li>
           <b>O. Pannekoucke</b>,
           <i>
-            An anisotropic formulation of the parametric Kalman filter</i>,
-            To appear in Tellus A, 2021.
+            An anisotropic formulation of the parametric Kalman filter assimilation</i>,Tellus A: Dynamic Meteorology and Oceanography, vol. 73, no. 1, pp. 1–27, Jan. 2021, doi: <a href="https://doi.org/10.1080/16000870.2021.1926660">10.1080/16000870.2021.1926660</a>.
         </li>
 
         <li>
@@ -802,6 +830,11 @@ function generateResearchArticles(){
             <br>
             <ul>          
               <li>
+                <b>O. Pannekoucke</b>,
+                <i>
+                  An anisotropic formulation of the parametric Kalman filter assimilation</i>,Tellus A: Dynamic Meteorology and Oceanography, vol. 73, no. 1, pp. 1–27, Jan. 2021, doi: <a href="https://doi.org/10.1080/16000870.2021.1926660">10.1080/16000870.2021.1926660</a>.
+              </li>              
+              <li>
                 <b>O. Pannekoucke</b> and R. Ménard, M. El Aabaribaoune and M. Plu,
                 <i>A methodology to obtain model-error covariances due to the
                   discretization scheme from the parametric Kalman filter perspective</i>,             
@@ -819,12 +852,7 @@ function generateResearchArticles(){
                 <a target="_blank" href="https://doi.org/10.5194/gmd-13-3373-2020">https://doi.org/10.5194/gmd-13-3373-2020</a>
                
                 </li>
-              <li>
-                  <b>O. Pannekoucke</b>,
-                  <i>
-                    An anisotropic formulation of the parametric Kalman filter analysis step</i>,
-                    , 2020.
-                  </li>
+
               <li> <b>O. Pannekoucke</b>; Bocquet, M. & Ménard, R.
                 <i>Parametric covariance dynamics for the nonlinear diffusive Burgers equation</i>
                   Nonlinear Processes in Geophysics,  1-21. (2018)
