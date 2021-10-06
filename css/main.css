@@ -177,6 +177,11 @@ figure.keyresult  figcaption {
     padding: 0px;
   }
 
+  .picture, .description{
+    max-width: 150px;
+    padding: 0px;
+  }
+
   .menuitem a {
     padding: 0px;
     font-size: 20px;
