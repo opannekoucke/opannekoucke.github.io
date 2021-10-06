@@ -212,7 +212,7 @@ figure.keyresult  figcaption {
   }
 
   .picture, .description{
-    max-width: 150px;
+    max-width: 100px;
     padding: 0px;
   }
 
