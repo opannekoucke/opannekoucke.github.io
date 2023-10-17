@@ -129,6 +129,33 @@ $(document).ready(function(){
 
 
     <article class="hidden-long">
+      <h2>  The article of M. Sabathier (PhD student)
+        "<i>Boundary Conditions for the Parametric Kalman Filter forecast</i> Journal of Advances in Modeling Earth Systems, no. 10, p. e2022MS003462, 2023, doi:<a href="https://doi.org/10.1029/2022MS003462">10.1029/2022MS003462</a>""
+      </h2>        
+
+        <p>This research article shows how to hanble boundary conditions in the parametric Kalman filter. But it also contributes to better understand how boundary conditions can be specified in ensemble Kalman filter methods.
+        </p>          
+
+        <b>Summary</b>
+        <p>
+        This paper investigates is a contribution to the exploration of the parametric Kalman filter (PKF), which is an approximation of the Kalman filter, where the error covariances are approximated by a covariance model. Here we focus on the covariance model parameterized from the variance and the anisotropy of the local correlations, and whose parameters dynamics provides a proxy for the full error-covariance dynamics. For this covariance model, we aim to provide the boundary condition to specify in the prediction of PKF for bounded domains, focusing on Dirichlet and Neumann conditions when they are prescribed for the physical dynamics. An ensemble validation is proposed for the transport equation and for the heterogeneous diffusion equation over a bounded 1D domain. This ensemble validation requires to specify the auto-correlation time-scale needed to populate boundary perturbation that leads to prescribed uncertainty characteristics. The numerical simulations show that the PKF is able to reproduce the uncertainty diagnosed from the ensemble of forecast appropriately perturbed on the boundaries, which show the ability of the PKF to handle boundaries in the prediction of the uncertainties. It results that Dirichlet condition on the physical dynamics implies Dirichlet condition on the variance and on the anisotropy.        
+        <p>
+
+        </p>
+
+        <figure class="keyresult">
+          <img  src="./img/figures/sabathier-james-2023.png"
+                alt=""/>
+          <figcaption>
+            <b>Figure:</b>
+            Comparison of the forecast-error variance (left column) and normalized length-scale (right column) fields dynamics for the heterogeneous advection equation on a 1D bounded domain with Dirichlet boundary conditions at x = 0 and open boundary condition at x = Λ. (see <a target="_blank" href="https://github.com/opannekoucke/pkf-boundary">Boundary Conditions for the Parametric Kalman Filter forecast</a>)
+          </figcaption>
+        </figure>          
+
+  </article>       
+
+
+    <article class="hidden-long">
       <h2>  The article of Camille Besombes (PhD student)
           "Producing realistic climate data with generative adversarial networks" is now published in NPG <a href="https://doi.org/10.5194/npg-28-347-2021">10.5194/npg-28-347-2021</a>
       </h2>        
